@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  padding: 30px 20%;
+  background: url("bg.jpg");
+  /* background: url("hell.webp"); */
+}
+
+.game {
+  padding: 30px 10%;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+#game-container {
+  font-size: 40px;
+  margin: 10px auto;
+  display: grid;
+  gap: 5px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 50px);
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: lightgray;
+}
+
+.taken {
+  background-color: gray;
+}
+
+.Xs {
+  color: red;
+}
+
+.Os {
+  color: blue;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+  <div class="game">
+    <button id = "change-player">Смена пользователя</button>
+    <p id="current-player"></p>
+    <label for="game-size">Размер поля</label>
+    <input type="number" id="game-size" value="3" min="3" max="10">
+    <button id="generate-button">Создать поле</button>
+    <div id="game-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
